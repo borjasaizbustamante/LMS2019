@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+body {
+	text-align: justify;
+	font-size: 1em;
+	color: BLACK;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+.mainMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.mainMenu li {
+	float: left;
+}
+
+.mainMenu li .active {
+	display: block;
+	color: white;
+	background-color: #4473a3;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.mainMenu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.mainMenu li a:hover {
+	background-color: #111;
+}
+
+.mainSection {
+	display: block;
+}
+
+.mainSection article {
+	margin-top: 3%;
+}
+
+.article div {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #888888;
+}
+
+.articleTitle {
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Tahoma, sans-serif;
+	color: #666;
+}
+
+.articleSubTitle {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Tahoma, sans-serif;
+	color: #666;
+}
+
+.class-groups-flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.class-groups-flex-container>.tile {
+	background-color: #f1f1f1;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	width: 230px;
+}
+
+.class-groups-flex-container>.tile .content {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.class-groups-flex-container>.tile .content:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.class-groups-flex-container>.tile:hover .content {
+	padding-right: 25px;
+}
+
+.class-groups-flex-container>.tile:hover .content:after {
+	opacity: 1;
+	right: 0;
+}
+
+.tileLink {
+	display: block;
+	color: black;
+}
+
+.tileTitle {
+	font-size: 0.8em;
+}
+
+.tileText {
+	font-size: 0.6em;
+}
