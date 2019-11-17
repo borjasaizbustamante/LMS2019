@@ -1,0 +1,382 @@
+
+body {
+	font-size: 28px;
+	margin:auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	
+}
+/*---------------------------- COLUMNA -----------------------------*/
+#columna{
+	columns: 100px 3;
+	display:flex;
+	text-align: center;
+	margin: 20px;
+	float: left;
+	padding-right: 125px;
+	padding-left: 75px;
+}
+/*---------------------------- PIE DE PAGINA -----------------------------*/
+td#twitter{
+	width:10px;
+	height:10px;
+	
+}
+td#insta{
+	width:10px;
+	height:10px;
+}
+td#you{
+	width:10px;
+	height:10px;
+}
+
+footer {
+	background-color:black;
+	color:white;
+	padding:50px;
+	margin:opx;
+	
+}
+
+
+#principal{
+	margin-left:5px;
+}
+
+
+h3{
+	color: #808080;
+	
+	text-align:center;
+}
+
+header {
+  
+  position: sticky;
+  top: 0;
+
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+
+#masculino img{
+	
+	size:20%;
+	
+}
+
+a {
+	padding:0px;
+}
+/*---------------------------- MENU -----------------------------*/
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 6px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #808080;
+}
+
+.active {
+  background-color: #ff0000;
+}
+
+.menu li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover, .dropdown:hover .dropbtn {
+  background-color: #808080;
+}
+
+.menu li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #808080;
+	
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#contenedor{
+	outline: 1px solid grey;
+	margin: auto;
+	background-image: url("../img/rel02.jpg");
+	background-position: center;
+	background-size:cover;
+
+	
+}
+/*---------------------------- LISTA -----------------------------*/
+.trofeos {
+	text-align: center;
+}
+#contenido {
+	margin:auto;
+	width: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 10px;	
+	
+}
+
+/* VIDEO */
+iframe {
+	margin-left:450px;
+}
+
+.equipo{
+	color: white;
+	
+}
+
+th {
+	color: black;
+
+}
+
+td {
+	background-size: 250px 200px;
+	background-repeat: no-repeat;
+	width: 300px;
+	height:200px;
+	vertical-align:text-bottom;
+	text-align: center;
+}
+/* ----------------  FORMULARIO-------------------- */
+
+#formulario {
+	
+	border: solid;
+	background-image:url("../img/rel0.jpg");
+	background-position: center;
+	padding:45px;
+	padding-left:100px;
+}
+/* ----------------------- FOTO DE CADA JUGADOR Y SU HOVER CORRESPONDIENTE ------------------------- */
+
+#reina{
+	background-image: url("../img/reina.png");
+
+}
+#reina:hover{
+	background-image: url("../img/reina2.png");
+	
+}
+#g_donnarumma {
+	background-image: url("../img/donnarumma.png");
+
+}
+#g_donnarumma:hover{
+	background-image: url("../img/donnarumma2.png");
+	
+}
+#a_donnarumma{
+	background-image: url("../img/a.donnarumma.png");
+
+}
+#a_donnarumma:hover{
+	background-image: url("../img/a.donnarumma2.png");
+	
+}
+#romagnoli{
+	background-image: url("../img/romagnoli.png");
+
+}
+#romagnoli:hover{
+	background-image: url("../img/romagnoli2.png");
+	
+}
+#ricardo{
+	background-image: url("../img/ricardo.png");
+
+}
+#ricardo:hover{
+	background-image: url("../img/ricardo2.png");
+	
+}
+#krunic{
+	background-image: url("../img/krunic.png");
+
+}
+#krunic:hover{
+	background-image: url("../img/krunic2.png");
+	
+}
+#hakan{
+	background-image: url("../img/hakan.png");
+
+}
+#hakan:hover{
+	background-image: url("../img/hakan2.png");
+	
+}
+#musacchio{
+	background-image: url("../img/musacchio.png");
+
+}
+#musacchio:hover{
+	background-image: url("../img/musacchio2.png");
+	
+}
+#theo{
+	background-image: url("../img/theo.png");
+
+}
+#theo:hover{
+	background-image: url("../img/theo2.png");
+	
+}
+#biglia{
+	background-image: url("../img/biglia.png");
+
+}
+#biglia:hover{
+	background-image: url("../img/biglia2.png");
+	
+}
+#borini{
+	background-image: url("../img/borini.png");
+
+}
+#borini:hover{
+	background-image: url("../img/borini2.png");
+	
+}
+#caldara{
+	background-image: url("../img/caldara.png");
+
+}
+#caldara:hover{
+	background-image: url("../img/caldara2.png");
+	
+}
+#conti{
+	background-image: url("../img/conti.png");
+
+}
+#conti:hover{
+	background-image: url("../img/conti2.png");
+	
+}
+#kessie{
+	background-image: url("../img/kessie.png");
+
+}
+#kessie:hover{
+	background-image: url("../img/kessie2.png");
+	
+}
+#suso{
+	background-image: url("../img/suso.png");
+
+}
+#suso:hover{
+	background-image: url("../img/suso2.png");
+	
+}
+#duarte{
+	background-image: url("../img/duarte.png");
+
+}
+#duarte:hover{
+	background-image: url("../img/duarte2.png");
+	
+}
+#calabria{
+	background-image: url("../img/calabria.png");
+
+}
+#calabria:hover{
+	background-image: url("../img/calabria2.png");
+	
+}
+#bonaventura{
+	background-image: url("../img/bonaventura.png");
+
+}
+#bonaventura:hover{
+	background-image: url("../img/bonaventura2.png");
+	
+}
+#castillejo{
+	background-image: url("../img/castillejo.png");
+
+}
+#castillejo:hover{
+	background-image: url("../img/castillejo2.png");
+	
+}
+
+#bennacer{
+	background-image: url("../img/bennacer.png");
+}
+#bennacer:hover{
+	background-image: url("../img/bennacer2.png");
+	
+}
+#piatek{
+	background-image: url("../img/piatek.png");
+}
+#piatek:hover{
+	background-image: url("../img/piatek2.png");
+	
+}
+#paqueta{
+	background-image: url("../img/paqueta.png");
+}
+#paqueta:hover{
+	background-image: url("../img/paqueta2.png");
+	
+}
+#rebic{
+	background-image: url("../img/rebic.png");
+}
+#rebic:hover{
+	background-image: url("../img/rebic2.png");
+	
+}

@@ -1,0 +1,241 @@
+
+/*fondo de pantalla repetido*/
+body {
+	background-repeat: repeat;
+	background-attachment: fixed;
+
+}
+/*flexbox global*/
+.flexbox-global {
+	display: flex;
+	flex-direction: column;
+}
+/*espacio del header*/
+.header {
+
+	padding: 0% 0% 5% 1%;
+}
+/*configuracion del titulo, -webkit-text-stroke bordel del texto*/
+.header h1 {
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+	font-size: 90px;
+	-webkit-text-stroke: 2px black;
+}
+
+
+/*.boton_inicio {
+
+	margin: 100px;
+	margin-top: -5%;
+	padding: 2% 6%;
+}*/
+
+/*boton registrar*/
+.registrar {
+
+	text-align: right;
+	font-family: sans-serif;
+}
+
+.boton_registrar {
+
+	padding: 10px 20px;
+	background-color: white;
+	border: solid rgba(123, 115, 111, 0.5) 2px;
+	cursor: pointer !important; 
+	font-family: sans-serif;
+
+}
+
+.boton_registrar:hover {
+
+	background-color: #ebe991
+}
+
+.boton_registrar {
+
+	background-color: white;
+	border: solid black 2px;
+	cursor: pointer !important;
+}
+/*color de cuando pasas el cursor al boton*/
+.boton_registrar :hover {
+	background-color: #ebe991;/*cambia de color el boton al pasar el cursor por encima*/
+	color: black;
+}
+
+/*.banner {
+	border-color: 1px solid black;
+	width: 100%;
+	height: 250px;
+	background-color: #e3e3e3;
+	margin: 0% 0.1% 1% 0.1%;
+	position: relative;
+    display: inline-block;
+}*/
+
+/*imagen del banner se ajusta a la pagina*/
+.banner img {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+
+}
+
+/*Menu en cascada*/
+.navbar {
+	overflow: hidden;
+	background-color: rgba(17, 132, 189, 0.623);
+	margin-top: -80px;
+	width: 100%;
+
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.navbar .volver {
+	float: right;
+	font-family: sans-serif;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: rgb(255, 255, 255);
+	padding: 14px 40px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.navbar a:hover {
+
+	-moz-transform: rotate(-5deg);
+	-moz-box-shadow: 10px 10px 20px #000000;
+	-webkit-transform: rotate(-5deg);
+	-webkit-box-shadow: 10px 10px 20px #000000;
+	transform: rotate(4deg);
+	box-shadow: 10px 10px 20px #000000;
+	margin-left: 10px;
+
+}
+
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #ebe991;
+	font-family: sans-serif;
+	color: black;
+	-moz-transform: rotate(-5deg);
+	-moz-box-shadow: 10px 10px 20px #000000;
+	-webkit-transform: rotate(-5deg);
+	-webkit-box-shadow: 10px 10px 20px #000000;
+	transform: rotate(4deg);
+	box-shadow: 10px 10px 20px #000000;
+	margin-left: 10px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgb(110, 209, 255);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	font-family: sans-serif;
+
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	font-family: sans-serif;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	font-family: sans-serif;
+}
+
+/*Contenido*/
+.contenido {
+
+	background-color: white;
+	padding: 14px 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	position: relative;
+	text-align: justify;
+
+}
+/*tabla 3 columnas*/
+.contenido table {
+
+	text-align: center;
+
+}
+
+/*boton hacia arriba*/
+.iarriba {
+
+	position: fixed;
+	padding: 1%;
+	right: 0;
+	bottom: 0;
+}
+
+.iarriba img {
+
+	width: 50px;
+	height: 50px;
+
+}
+
+/*Footer*/
+.footer {
+
+	bottom: 0%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: rgb(58, 58, 58);
+	font-family: sans-serif;
+}
+
+.footer,
+table {
+	margin: auto;
+	font-family: sans-serif;
+
+
+}

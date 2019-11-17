@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="../IMG/header.png">
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/csslista.css">
+	<!-- Fuente para el header -->
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<!-- Fuente para el body -->
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<title>Lista Europa</title>
+</head>
+
+<body>
+	<!--DIV para el encabezado-->
+	<header id="arriba">
+		<h1><a href="../index.html">Bombo&Platillo</a></h1>
+	</header>
+
+	<!--DIV para el menu de navegacion-->
+	<div class="navbar">
+		<a class="login" href="#">Volver</a>
+		<a class="login" href="../HTML/Formulario HTML.html">Login</a>
+		<!-- La opcion que pedistes para volver a una pagina principal -->
+		<a href="../index.html">HOME</a>
+		<a href="QuienesSomos.html">Quienes somos</a>
+		<div class="dropdown">
+			<button class="dropbtn">Lista ▼
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="../HTML/ListaEuropa.html">Europa</a>
+				<a href="../HTML/ListaEuropa.html">Asia</a>
+				<a href="../HTML/ListaEuropa.html">America</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Agenda ▼
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="../HTML/Conciertos.html">Conciertos</a>
+				<a href="Festivales.html">Festivales</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Aqui va el article donde van incluidos 4 divs y 2 flexbox-->
+	<article>
+		<!--El primero de los flexbox: Se encuentran 3 clases incluidas en "row"-->
+		<div class="flex-entradapagina">
+			<div class="funcionmapa">
+				<p>
+					A continuación, podrás ver el TOP5 de todos los paises miembros de la Union Europea.
+					Esta semana, <b>Tones and I</b> copa el número uno de la mayoria de los paises de
+					Europa.</br></br>
+					Sin embargo, <b>Selena Gomez</b> empieza a asomar en el TOP5 de muchos paises con su nuevo exito
+					<i>Lose You To Love Me</i>,
+					lo cual nos hace pensar que dentro de poco será la canción mas escuchada en toda
+					Europa.</br></br>
+					En España, Camilo Sesto está en el numero 1 superando a Rosalia, Ozuna y otros "artistas" del
+					género, como homenaje a su reciente fallecimiento.</br></br>
+					<b>Para ir directamente al pais que quieras, solo tienes que clicar en el mapa que tienes a la
+						derecha.</b>
+				</p>
+			</div>
+
+			<div class="mapaeuropa">
+				<img src="../img/ue1.jpg" usemap="#mapaue" class="mapue" width="100%" height="100%" ;>
+				<map name="mapaue">
+					<area shape="rect" coords="170,500,140,430" href="#portugal" alt="Ir a Portugal">
+					<area shape="rect" coords="170,500,240,420" href="#espana" alt="Ir a España">
+					<area shape="rect" coords="500,150,560,80" href="#finlandia" alt="Ir a Finlandia">
+					<area shape="circle" coords="540,370,28" href="#rumania" alt="Ir a Rumania">
+					<area shape="circle" coords="442,375,8" href="#croacia" alt="Ir a Croacia">
+				</map>
+			</div>
+
+			<div class="introduccion">
+				<h4 align="center"><b>TONES AND I</b></h1>
+					<p>
+						Toni Watson es la única componente de Tones and I.</br>
+						Es una cantante y productora originaria de Australia que, con tan solo 19 años, copa el
+						numero 1
+						en los paises de Europa.</br></br>
+						Desde muy joven, se volcó en su formación en música. En secundaria aprendió a tocar la
+						batería y
+						el piano. </br></br>
+						Toni actuó en las calles de Melbourne por un tiempo y se convirtió en una gran atracción
+						para
+						las masas con su increíble talento. Allí, un hombre le dio su tarjeta, y, al cabo de un mes,
+						Toni decididó llamar.</br></br> "Que tengo que perder", pensó.
+						Lo demas, ya es historia.
+						<img src="../img/tonesandi.jpg" width="100%" ;>
+					</p>
+			</div>
+		</div>
+
+		<!--Segundo de los flexbox: Aquí solo se encuentra la tabla que incluye 28 paises-->
+		<div class="tablalista">
+			<table style="width:100%">
+				<tr>
+					<td><img src="../img/alemania.jpg"></td>
+					<td>
+						<b class="pais">Alemania</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Apache 207 - Roller</li>
+							<li>Capital Bra, Samra & Lea - 110</li>
+							<li>Apache 207 - 200km/h</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/685705882&color=%23aec5e9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/austria.jpg"></td>
+					<td>
+						<b class="pais">Austria</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Capital Bra, Samra & Lea - 110</li>
+							<li>Travis Scott - Highest In The Room</li>
+							<li>Apache 207 - Roller</li>
+							<li>Capital Bra & Samra - Berlin lebt wie nie zuvor</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dab3fgqboeA"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/belgica.jpg"></td>
+					<td>
+						<b class="pais">Bélgica</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Armin Van Buuren - Hoe Het Danst</li>
+							<li>Shawn Mendes & Camila Cabello - Señorita</li>
+							<li>Kygo & Whitney Houston - Higher Love</li>
+							<li>Suzan & Freek - Blauwe Dag</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="100%" src="https://www.youtube.com/embed/7zwK5fDUOY4"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/bulgaria.jpg"></td>
+					<td>
+						<b class="pais">Bulgaria</b>
+						<ol>
+							<li class="cancionvideo">Shawn Mendes & Camila Cabello - Señorita</li>
+							<li>Miley Cyrus - Mother´s Daughter</li>
+							<li>Ariana Grande, Miley Cyrus & Lana del Rey - Don´t Call Me Angel</li>
+							<li>Lil Nas X - Old Town Road</li>
+							<li>Ed Sheeran & Justin Bieber - I Don´t Care</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Pkh8UtuejGw" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/republica-checa.jpg"></td>
+					<td>
+						<b class="pais">Republica Checa</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Calin & STEIN27 - Ruze</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+							<li>Viktor Sheen - Az na mesíc</li>
+							<li>Lewis Capaldi - Someone You Love</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/5w9PwObNqFo" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/chipre.jpg"></td>
+					<td>
+						<b class="pais">Chipre</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li>Selena Gomez - Lose You to Love Me</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+							<li class="cancionvideo">Mente Fuerte, Hawk & Baghdad - Caliente</li>
+							<li>Snik & Tamta - Señorita</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/rhPErmXGDg4" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr id="croacia">
+					<td><img src="../img/croacia.jpg"></td>
+					<td>
+						<b class="pais">Croacia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">The Prince Karma - Later Bitches</li>
+							<li>Billie Eilish - bad guy</li>
+							<li>Regard - Ride It</li>
+							<li>Dominc Fike - 3 Nights</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/nAYkXB5yoiw" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/dinamarca.jpg"></td>
+					<td>
+						<b class="pais">Dinamarca</b>
+						<ol>
+							<li class="cancionvideo">NODE - Supermario</li>
+							<li>Branco & Gilli - London Town</li>
+							<li>Tones and I - Dance Monkey</li>
+							<li>Travis Scott - Highest In The Room</li>
+							<li>Lukas Graham - Lie</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/rEkpXOrecSo" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/eslovaquia.jpg"></td>
+					<td>
+						<b class="pais">Eslovaquia</b>
+						<ol>
+							<li class="numero1">Selena Gomez - Lose You To Love Me</li>
+							<li>Selena Gomez - Look At Her Now</li>
+							<li>Regard - Ride It</li>
+							<li>Billie Eilish - Bad Guy</li>
+							<li class="cancionvideo">Adam Durica - Zatancuj Si So Mnou</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/iV0zyVUwoD4" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/eslovenia.jpg"></td>
+					<td>
+						<b class="pais">Eslovenia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li>Selena Gomez - Lose You to Love Me</li>
+							<li class="cancionvideo">Kanye West - Follow God</li>
+							<li>Maroon 5 - Memories</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/J8iXDK0K95o" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr id="espana">
+					<td><img src="../img/espana.jpg"></td>
+					<td>
+						<b class="pais">España</b>
+						<ol>
+							<li class="cancionvideo">Camilo Sesto - Mola Mazo</li>
+							<li>Rosalia & Ozuna - Yo X Ti, Tu X Mi</li>
+							<li>Tainy, Anuel AA & Ozuna - Adicto</li>
+							<li>Manuel Turizo & Anuel AA - Te Quemaste</li>
+							<li>Duki - Goteo</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/mZoIb4FcP4o" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/estonia.jpg"></td>
+					<td>
+						<b class="pais">Estonia</b>
+						<ol>
+							<li class="numero1">Regard - Ride It</li>
+							<li class="cancionvideo">Philippe El Sisi & Miikka L - Bypass (Extended Mix)</li>
+							<li>Tones and I- Dance Monkey</li>
+							<li>YehMe2 & Wuki - Throw It</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/4vFcHDeFxPg" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr id="finlandia">
+					<td><img src="../img/finlandia.jpg"></td>
+					<td>
+						<b class="pais">Finlandia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">JVG - Rakastuit Looseriin</li>
+							<li>Pyhimys - Muistuta Mua</li>
+							<li>Behm - Hei Rakas</li>
+							<li>Kube - Japanese Drip</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Jebdye57UYE" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/francia.jpg"></td>
+					<td>
+						<b class="pais">Francia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Maitre Gims & Sting - Reste</li>
+							<li>Shawn Mendes & Camila Cabello - Señorita</li>
+							<li>Gambi - Popopop</li>
+							<li>Vitaa & Slimane - Ca Va Ca Vient</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0Ev-6PYtI34" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/grecia.jpg"></td>
+					<td>
+						<b class="pais">Grecia</b>
+						<ol>
+							<li class="cancionvideo">Nikos Economopoulos - Kathimerina</li>
+							<li>Shawn Mendes & Camila Cabello - Señorita</li>
+							<li>Nikos Economopoulos - Valto Terma</li>
+							<li>Tones and I - Dance Monkey</li>
+							<li>Konstantinos Argiros - Mazi Sou</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/D5AdDydZGLA" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/hungria.jpg"></td>
+					<td>
+						<b class="pais">Hungria</b>
+						<ol>
+							<li class="numero1">Selena Gomez - Lose You To Love Me</li>
+							<li>Billie Eilish - Bad Guy</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+							<li>Kanye West - Follow God</li>
+							<li class="cancionvideo">Ed Sheeran - Shape Of You</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/JGwWNGJdvx8" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/irlanda.jpg"></td>
+					<td>
+						<b class="pais">Irlanda</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Regard - Ride It</li>
+							<li>Post Malone - Circles</li>
+							<li>Harry Styles - Lights Up</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ucVUEmjKsko" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/italia.jpg"></td>
+					<td>
+						<b class="pais">Italia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li>Rocco Hunt, J-AX & Boomdabash - Ti Volevo Dedicare</li>
+							<li class="cancionvideo">Fred de Palma & Ana Mena - Una Volta Ancora</li>
+							<li>Aya Nakamura - Pookie</li>
+							<li>Tommaso Paradiso - Non Avere Paura</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/4R5mDpIgwUs" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/letonia.jpg"></td>
+					<td>
+						<b class="pais">Letonia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li>Kanye West - Follow God</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+							<li class="cancionvideo">Post Malone - Circles</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/wXhTHyIgQ_U" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/lituania.jpg"></td>
+					<td>
+						<b class="pais">Lituania</b>
+						<ol>
+							<li class="cancionvideo">Selena Gomez - Lose You To Love Me</li>
+							<li>Billie Eilish - Bad Guy</li>
+							<li>Kanye West - Follow God</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+							<li>Regard - Ride It</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/zlJDTxahav0" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/luxemburgo.jpg"></td>
+					<td>
+						<b class="pais">Luxemburgo</b>
+						<ol>
+							<li class="numero1">Selena Gomez - Lose You To Love Me</li>
+							<li>Regard - Ride It</li>
+							<li>Shawn Mendes & Camila Cabello - Señorita</li>
+							<li class="cancionvideo">Maroon 5 - Memories</li>
+							<li>Lewis Capaldi - Someone You Loved</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/SlPhMPnQ58k" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/malta.jpg"></td>
+					<td>
+						<b class="pais">Malta</b>
+						<ol>
+							<li class="numero1">Lewis Capaldi - Someone You Loved</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+							<li class="cancionvideo">Mabel - Don´t Call Me Up</li>
+							<li>Post Malone - Wow.</li>
+							<li>Regard - Ride It</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/9TQKyDD9Yig" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/paises-bajos.jpg"></td>
+					<td>
+						<b class="pais">Paises Bajos</b>
+						<ol>
+							<li class="cancionvideo">Tones and I - Dance Monkey</li>
+							<li>Snelle - Reunie</li>
+							<li>Marco Borsato, Snelle & John Ewbank - Lippenstift</li>
+							<li>Post Malone - Circles</li>
+							<li>Suzan & Freek - Blauwe Dag</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/MlCEMOUDfEE" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/polonia.jpg"></td>
+					<td>
+						<b class="pais">Polonia</b>
+						<ol>
+							<li class="numero1">Selena Gomez - Lose You To Love Me</li>
+							<li class="cancionvideo">Dawid Podsiadlo - Najnowszy Klip</li>
+							<li>Regard - Ride It</li>
+							<li>Selena Gomez - Look At Her Now</li>
+							<li>Nea - Some Say</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/5rNXe7Z1qN0" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr id="portugal">
+					<td><img src="../img/portugal.jpg"></td>
+					<td>
+						<b class="pais">Portugal</b>
+						<ol>
+							<li class="numero1">Shawn Mendes & Camila Cabello - Señorita</li>
+							<li>Bispo & Ivandro - Essa Saia</li>
+							<li class="cancionvideo">Julinho Ksd, Yuran & Trista - Vivi Good</li>
+							<li>Nenny - Bussola</li>
+							<li>MC Du Black - Gaiola E O Troco</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7Fl6sSVcTmo" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/reino-unido.jpg"></td>
+					<td>
+						<b class="pais">Reino Unido</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li>Regard - Ride It</li>
+							<li>Post Malone - Circles</li>
+							<li class="cancionvideo">Ed Sheeran ft Camila Cabello & Cardi B - South of the Border
+							</li>
+							<li>Travis Scott - HIGHEST IN THE ROOM</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/UPOT2tgY9QQ" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr id="rumania">
+					<td><img src="../img/rumania.jpg"></td>
+					<td>
+						<b class="pais">Rumania</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Travis Scott - HIGHEST IN THE ROOM</li>
+							<li>Selena Gomez - Lose You To Love Me</li>
+							<li>Kanye West - Follow God</li>
+							<li>Maroon 5 - Memories</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/tfSS1e3kYeo" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="../img/suecia.jpg"></td>
+					<td>
+						<b class="pais">Suecia</b>
+						<ol>
+							<li class="numero1">Tones and I - Dance Monkey</li>
+							<li class="cancionvideo">Dree Low - Pippi</li>
+							<li>Dizzy & Einar - Harifran</li>
+							<li>Dani M & Simon Superti - LeyLey</li>
+							<li>Cuz, Geekazo & Yei Gonzalez - Forsent</li>
+						</ol>
+					</td>
+					<td>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/1dxuoFaZMLw" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</article>
+
+	<!--Pie de pagina-->
+	<footer>
+		<table>
+			<tr>
+				<th>Cont&aacute;ctanos</th>
+			</tr>
+			<tr>
+				<th>Nerea</th>
+				<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+				<td>UNO</td>
+			</tr>
+			<tr>
+				<th>Imanol</th>
+				<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+				<td>DOS</td>
+			</tr>
+			<tr>
+				<th>Cristina</th>
+				<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+				<td>TRES</td>
+			</tr>
+			<tr>
+				<th>Iker</th>
+				<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+				<td>CUATRO</td>
+			</tr>
+			<tr>
+				<td>
+
+				</td>
+			</tr>
+		</table>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo qui deserunt similique harum, autem laboriosam
+			vitae enim ab mollitia dignissimos asperiores, pariatur consequatur? Ducimus ipsa eos quo? Porro, ipsum
+			dicta!
+			Ipsum quos ab, commodi animi voluptate numquam fugit facere quia modi earum magnam quo incidunt esse magni
+			blanditiis labore, aspernatur laudantium porro ex praesentium sed quibusdam nisi corrupti! Sint, facilis!
+			Odit, numquam deserunt. Libero similique labore provident velit cupiditate ratione vero harum temporibus,
+			omnis
+			animi expedita voluptatum exercitationem molestias saepe itaque possimus perspiciatis quod veritatis?
+			Suscipit,
+			repellat! Blanditiis, quidem eveniet!
+			Officia amet nobis rem quam ad voluptates ea ratione eius quaerat mollitia delectus, nisi dolore. Natus
+			optio
+			explicabo dolore blanditiis debitis minima, pariatur magni voluptatibus cum dolor aut vel accusantium.</p>
+	</footer>
+
+	<!--Boton de la esquina inferior derecha para volver a la parte arriba de la pagina-->
+	<div class="botonArriba">
+		<a href="#arriba"><img src="../IMG/irarriba.png" alt="Volver arriba"></a>
+	</div>
+</body>
+
+</html>

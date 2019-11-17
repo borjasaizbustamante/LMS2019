@@ -1,0 +1,113 @@
+/*Formato de la tabla de paises*/
+
+article table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 20px;
+}
+
+
+article table th,
+article td,
+article tr {
+	border: 10px #138D75;
+	border-style: outset;
+	background: paleturquoise;
+	font-size: 100%
+}
+
+/*Formato del contenido de la página de listas, es decir: listado, introducción, mapa y funciónmapa*/
+
+article {
+	border-radius: 20px;
+	width: 90%;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+/*Para alinear al centro el texto de la lista*/
+article ol {
+	margin-left: 30%;
+}
+
+.pais {
+	font-style: italic;
+	margin-left: 30%;
+	text-transform: uppercase;
+}
+
+/*para ajustar los videos insertados a la tabla*/
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/*formato de los div*/
+.mapaeuropa {
+	border: 5px ridge;
+	background-color: white;
+	width: 50%;
+}
+
+.tablalista {
+	padding: 2%;
+	border: 5px ridge;
+	background-color: mediumaquamarine;
+	text-align: justify;
+}
+
+.funcionmapa {
+	border: 5px ridge;
+	background-color: #3190B9;
+	width: 20%;
+	height: 50%;
+}
+
+.introduccion {
+	border: 5px ridge;
+	background-color: plum;
+	width: 20%;
+}
+
+/*formato de texto de elementos de la tabla*/
+.numero1 {
+	font-weight: bold;
+}
+
+.cancionvideo {
+	font-style: italic;
+	font-weight: bold;
+	color: #B03A2E;
+}
+
+/*formato de imagenes que se encuentran dentro de tabla e introducción*/
+.tablalista img {
+	width: 100%;
+	height: 100%;
+}
+
+.introduccion img {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+/*flexbox de las 3 columnas de la página*/
+
+.flex-entradapagina {
+	display: flex;
+	flex-wrap: row;
+}
+
+.flex-entradapagina>div {
+	margin: 1%;
+}
+
+/*flexbox de la lista de paises*/
+
+.flex-tablalista {
+	display: flex;
+	flex-wrap: wrap;
+}

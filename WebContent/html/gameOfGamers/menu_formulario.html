@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="./IMG/game-controller.png">
+	<link rel="stylesheet" href="./CSS/MAIN.css">
+	<link rel="stylesheet" href="./CSS/formulario.css">
+	<title>Game of Gamers</title>
+</head>
+
+<header>
+	<div class="registrar" id="arriba">
+
+		<button class="boton_registrar" onClick=" window.location.href='./menu_formulario.html'">LOGIN</button>
+
+	</div>
+	<!--DIV para el orden de la pagina-->
+	<div class="flexbox-global">
+		<!--DIV para el header-->
+		<div class="header">
+			<h1 class="titulo">GAME OF GAMERS</h1>
+			<!--TODO: Boton rederigir a la pagina principal-->
+			<!--<div class="boton_inicio">
+				<button><input type="image" onClick=" window.location.href='./menu.html'"
+						src="./IMG/game-controller.png" height="100" width="100" /></button>
+			</div>-->
+
+		</div>
+
+		<!--DIV para el menu de navegacion-->
+		<!--DIV para el menu de navegacion-->
+		<div class="navbar">
+				<a href="index.html">Inicio</a>
+				<a href="menu_noticias.html">Noticias</a>
+	
+				
+				<div class="dropdown">
+					<button class="dropbtn">Juegos ▼
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./menu_juego.html">Old Nightmares</a>
+						<a href="./menu_juego2.html">ScapeTris</a>
+					</div>
+				</div>
+				
+				<a href="./menu_formulario_comentario.html">Foro</a>
+				<a class="volver" href="#">Volver</a>
+			</div>
+
+			<!--DIV del banner-->
+		<div class="banner">
+				<!-- Poner imagen que se ajuste al banner-->
+				<img src="./IMG/banner_img.png" alt="error">
+			</div>
+
+</header>
+
+<body background="./IMG/fondo_re.jpg">
+
+
+	<!--DIV del contenido de la pagina-->
+	<div class="contenido">
+		<div class="formulario">
+			<p>
+				<p>
+					<h1>
+						Formulario
+					</h1>
+
+				</p>
+
+				<form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+					<p>
+						<fieldset style="width:41%">
+							<legend>Datos usuario</legend>
+
+							<table>
+								<tr>
+									<td>
+										<label for="email">Email:</label>
+										<input type="email" placeholder="email" maxlength="40" size="40" a required />
+									</td>
+
+									<td>
+										<label for="email">Repita email:</label>
+										<input type="email" placeholder="email" maxlength="40" size="40"
+											autocomplete="off" title="no se permite auto completar" required />
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" height="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<label for="password">Clave:</label>
+										<input type="password" placeholder="clave" maxlength="40" size="40" required />
+									</td>
+
+									<td>
+										<label for="password">Repita clave:</label>
+										<input type="password" placeholder="clave" maxlength="40" size="40"
+											autocomplete="off" required />
+									</td>
+								</tr>
+							</table>
+							<font size="3" style="color: green">
+								Estos 4 campos son todos obligatorios &nbsp; &nbsp; Los 4 campos tienen un
+								tamaño y un maximo de 40 caracteres
+							</font>
+						</fieldset>
+
+					</p>
+
+					<p>
+
+						<fieldset style="width:41%">
+							<legend>Datos personales</legend>
+
+							<table>
+								<tr>
+									<td>
+										<label for="name">Nombre: </label>
+										<input type="text" maxlength="40" size="40">
+									</td>
+
+									<td>
+										<font size="3" style="color: green">Obligatorio. Máx. 40 caracteres</font>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<label for="date">Fecha nacimiento:</label>
+										<input type="date" placeholder="dd/mm/aaaa" min="1900-01-01" max="2500-12-31" />
+
+										<font size="3" style="color: green">&nbsp;&nbsp;Mínimo 1/1/1900 y máximo
+											31/12/2500
+										</font>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+
+									<td>
+										Sexo:
+										<input type="radio" name="genero" value="hombre" id="hombre">
+										<label for="hombre">Hombre</label>
+
+										<input type="radio" name="genero" value="mujer" id="mujer">
+										<label for="mujer">Mujer</label>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<label for="tel">Telefono:</label>
+										<input type="tel" maxlength="9" size="9">
+
+										<font size="3" style="color: green">Como máximo 9 caracteres
+											</br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											Tamaño 9 caracteres.
+										</font>
+									</td>
+								</tr>
+
+							</table>
+						</fieldset>
+
+					</p>
+
+					<p>
+
+						<fieldset style="width:41%">
+							<legend>Estudios/trabajo</legend>
+
+							<table>
+
+								<tr>
+									<td>
+										<label for="estudios:">Estudios: </label>
+										<select>
+											<option value="nada" selected>&nbsp;</option>
+											<option value="dbh">DBH</option>
+											<option value="bachiller">BACHILLER
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</option>
+											<option value="fp">FP</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<label for="idiomas:">Idiomas: </label>
+										<select size="3" multiple>
+											<option value="nada">&nbsp;</option>
+											<option value="euskera">Euskera</option>
+											<option value="ingles">Inglés</option>
+											<option value="frances">Frances</option>
+										</select>
+										<font size="3" style="color: green">&nbsp;Selección multiple habilitada</font>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+
+										<label for="cv">Adjunta tu CV: </label>
+										</br>
+										<input type="file" name="archivosubido[]" accept=".pfd, .doc, .docx">
+										<font size="3" style="color: green">&nbsp;&nbsp;Sólo se permiten archivos .pfd,
+											.doc
+											y .docx</font>
+									</td>
+								</tr>
+
+							</table>
+						</fieldset>
+					</p>
+
+					<p>
+
+						<fieldset style="width:41%">
+							<legend>Otros</legend>
+
+							<table>
+								<tr>
+									<td>
+										<label for="num">Elige tu número favorito:</label>
+										<input type="number" min="1" max="100" />
+
+										<font size="3" style="color: green">&nbsp;&nbsp;Entre 1 y 100</font>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<label for="color">Elige tu color favorito:</label>
+										<input type="color" />
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2" HEIGHT="10">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<label for="otros">Puedes añadir lo que quieras: </label>
+										</br>
+										<textarea rows="5" cols="20" placeholder="Escribe lo que quieras"></textarea>
+
+									</td>
+								</tr>
+
+							</table>
+						</fieldset>
+					</p>
+
+					<p>
+						<input type="reset" value="Limpiar datos">
+						<input type="submit" value="Enviar datos"> 
+						<input type="submit" value="Ir a foro" onClick=" window.location.href='./menu_formulario_comentario.html'"> 
+
+					</p>
+
+				</form>
+			</p>
+		</div>
+
+		<!--TODO: Hacer el contenido mediante DIVs-->
+	</div>
+
+	<!--DIV del footer-->
+	<footer>
+		<div class="footer">
+			<!--Links de informacion y los alumnos-->
+			<!--<a href="https://www.google.es/" target="_blank">Informacion</a>
+			<a href="https://www.google.es/" target="_blank">Alumnos</a>-->
+			<table>
+				<tr>
+					<td>
+						<div><a href="./menu_informacion.html" target="_blank" style="color: white;">Informacion</a></div>
+					</td>
+					<td>
+						<!-- Espacio en blanco -->
+					</td>
+					<td>
+						<div><a href="./menu_alumnos.html" target="_blank" style="color: white;">Alumnos</a></div>
+					</td>
+				</tr>
+			</table>
+			<!--Copyright-->
+			<p>©2019 Lenguaje De Marcas<p>
+					<p>RETO: </p>
+					<p>Nuestra primera web<p>
+							<!--Imagenes de redes sociales-->
+							<div class="social">
+								<a href="https://twitter.com/?lang=es" target="_blank">
+									<img src="./IMG/twitter.png" height="30"></a>
+								<a href="https://www.youtube.com/channel/UCiE1s3P98DG52t-tADZYcvQ" target="_blank">
+									<img src="./IMG/youtube.png" height="30">
+									<a href="https://www.instagram.com/?hl=es" target="_blank">
+										<img src="./IMG/instagram.png" height="30"></a>
+							</div>
+
+		</div>
+	</footer>
+	<div class="iarriba">
+		<a href="#arriba">
+			<img src="./IMG/irarriba.png" alt="error" width="%" ;>
+		</a>
+	</div>
+
+</body>
+
+</html>

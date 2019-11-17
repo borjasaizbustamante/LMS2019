@@ -1,0 +1,17 @@
+
+/*barra azul alumnos*/
+.vl{
+  border-left: 6px solid rgb(57, 170, 245);
+  height: auto;
+  padding: 1%;
+}
+
+
+
+.alumno{
+text-align: center;
+}
+
+
+
+

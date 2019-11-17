@@ -1,0 +1,61 @@
+/* Tamaño de todas las imagenes */
+img {
+    height: 100px;
+    width: 200px;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Esta clase esta en un DIV que dentro de esta, estan los DIVs de las noticias y la galeria
+   y sirve para ordenarlas horizontalmente */
+.flex-noticias-galeria {
+    display: flex;
+    flex-direction: row;
+}
+
+/* El margen que habra entre los DIVs de noticias y galeria */
+.flex-noticias-galeria>div {
+    margin: 0.5%;
+}
+
+/* Los DIVs siguientes tienen un padding y un borde para decorarlo */
+.noticias {
+    padding: 2%;
+    background-color: white;
+    border: solid 3px #402F24;
+}
+
+.noticias p {
+    text-align: justify;
+    padding-right: 2%;
+}
+
+/* DIV de la galeria con un flexbox para que tenga dos columnas de imagenes y si
+   se hace mas pequeño el navegador que se ponga a uno */
+.galeria {
+    padding: 0.2%;
+    border: solid 3px #402F24;
+    background: #D9B496;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 100%;
+}
+
+.galeria div {
+    margin-left: auto;
+    margin-right: auto;
+}

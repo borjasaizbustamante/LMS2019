@@ -1,0 +1,30 @@
+/*fondo del div contenido*/
+.contenido {
+	background-color: white;
+}
+/*configuracion del texto*/
+.contenido h1 {
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+.cont_juego {
+	text-align: justify;
+}
+
+/*imagen de la derecha dentro del div contenido*/
+.img_juego {
+
+	float: right;
+	width: 200px;
+	padding: 1% 1% 1% 2%;
+
+}
+/*video del juego*/
+.video_juego {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}

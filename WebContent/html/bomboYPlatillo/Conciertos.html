@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="./IMG/header.png">
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/Conciertos.css">
+	<!-- Fuente para el header -->
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<!-- Fuente para el body -->
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<title>Bombo&Platillo</title>
+</head>
+
+<body>
+	<div class="flex-global">
+		<!--DIV para el encabezado-->
+		<header id="arriba">
+			<h1><a href="../index.html">Bombo&Platillo</a></h1>
+		</header>
+
+		<!--DIV para el menu de navegacion-->
+		<div class="navbar">
+			<a class="login" href="#">Volver</a>
+			<a class="login" href="../HTML/Formulario HTML.html">Login</a>
+			<!-- La opcion que pedistes para volver a una pagina principal -->
+
+			<a href="../index.html">HOME</a>
+			<a href="QuienesSomos.html">Quienes somos</a>
+			<div class="dropdown">
+				<button class="dropbtn">Lista ▼
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="../HTML/ListaEuropa.html">Europa</a>
+					<a href="../HTML/ListaEuropa.html">Asia</a>
+					<a href="../HTML/ListaEuropa.html">America</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Agenda ▼
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="../HTML/Conciertos.html">Conciertos</a>
+					<a href="Festivales.html">Festivales</a>
+				</div>
+			</div>
+		</div>
+
+		<article>
+			<h2>Conciertos Bizkaia</h2>
+			<div class="paginaConciertos">
+				<!--Todos los conciertos y las imagenes-->
+				<div class="todoConciertos">
+					<!--Toda la informacion de los conciertos-->
+					<div class="concierto">
+						<!--Informacion de un concierto-->
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th colspan="5" class="tablaCabecera1"><!--Nombre del grupo y que al clickarlo te abra su pagina web en una nueva pestaña-->
+										<h3><a class="enlaceGrupo" href="http://iopera.es/lucia-di-lammermoor/"
+										target="_blank">'Lucia di Lammermoor'</a></h3>
+									</th>
+								</tr>
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>19/10/2019 - 28/10/2019</td>
+									<td><a class="enlaceSitio" href="https://www.euskalduna.eus/eventos/"
+											target="_blank">Palacio Euskalduna</a></td>
+									<!--Enlace al lugar del concierto-->
+									<td>Sábado 19:00<br />Lunes y Viernes 19:30</td>
+									<td>De 37 a 227 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3><a class="enlaceGrupo" href="http://airbournerock.com/" target="_blank">Airbourne</a> y
+								<a class="enlaceGrupo" href="http://supersuckers.com/" target="_blank">Supersuckers</a>
+							</h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>22/10/2019</td>
+									<td><a class="enlaceSitio" href="http://santana27.com/" target="_blank">BILBAO
+											Santana 27</a></td>
+									<td>20:00</td>
+									<td>28/33 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3>'Lagun artean kantari'</h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>22/10/2019</td>
+									<td><a class="enlaceSitio" href="http://www.kafeantzokia.eus/es/"
+											target="_blank">Kafe Antzokia Bilbao</a></td>
+									<td>20:00</td>
+									<td>Entrada libre</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3><a class="enlaceGrupo" href="https://www.facebook.com/TheDustaphonics/"
+									target="_blank">The Dustaphonics</a> y
+								<a class="enlaceGrupo" href="https://www.facebook.com/thevolcanicsrock/"
+									target="_blank">The Volcanics</a></h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>23/10/2019</td>
+									<td><a class="enlaceSitio"
+											href="https://www.facebook.com/pg/Shakebilbao/about/?ref=page_internal"
+											target="_blank">Shake!</a></td>
+									<td>20:00</td>
+									<td>12 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3>Banda de Música de Barakaldo</h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>25/10/2019</td>
+									<td><a class="enlaceSitio" href="http://www.teatrobarakaldo.com/"
+											target="_blank">Teatro Barakaldo</a></td>
+									<td>20:00</td>
+									<td>Entrada libre</td>
+									<td>Barakaldo (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3><a class="enlaceGrupo" href="http://www.dsr.com.ar/" target="_blank">God Save the
+									Queen</a></h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>25/10/2019</td>
+									<td><a class="enlaceSitio" href="https://www.facebook.com/BilbaoArena"
+											target="_blank">Bilbao Arena</a></td>
+									<td>21:00</td>
+									<td>Desde 36,50 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3><a class="enlaceGrupo" href="https://aitanamusic.es/" target="_blank">Aitana</a></h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>26/10/2019</td>
+									<td><a class="enlaceSitio" href="https://www.facebook.com/BilbaoArena"
+											target="_blank">Bilbao Arena</a></td>
+									<td>20:00</td>
+									<td>Desde 30,50 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<div class="concierto">
+						<div>
+							<h3><a class="enlaceGrupo" href="https://dawestheband.com/" target="_blank">Dawes</a></h3>
+						</div>
+
+						<div>
+							<table class="tablaConcierto">
+								<tr>
+									<th>FECHA</th>
+									<th>UBICACION</th>
+									<th>HORA</th>
+									<th>PRECIO</th>
+									<th>CIUDAD</th>
+								</tr>
+								<tr>
+									<td>27/10/2019</td>
+									<td><a class="enlaceSitio" href="http://www.kafeantzokia.eus/es/"
+											target="_blank">Kafe Antzokia Bilbao</a></td>
+									<td>19:30</td>
+									<td>Desde 18 €</td>
+									<td>Bilbao (SPAIN)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="todoConciertosImagenes">
+					<!--Todas las imagenes-->
+					<div>
+						<a target="_blank" href="../IMG/lucia-di-lammermoor.jpg">
+							<!--Enlace para que la imagen se abra en una nueva pestaña-->
+							<img class="conciertoImagen" alt="Foto Lucia Di Lamermoor"
+								src="../IMG/lucia-di-lammermoor.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/airbourne-y-supersuckers.jpg">
+							<img class="conciertoImagen" alt="Foto Airborne y Supersuckers"
+								src="../IMG/airbourne-y-supersuckers.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/lagun-artean-kantari.jpg">
+							<img class="conciertoImagen" alt="Foto Lagun Artean Kantari"
+								src="../IMG/lagun-artean-kantari.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/the-dustaphonics-y-the-volcanics.jpg">
+							<img class="conciertoImagen" alt="Foto The Dustaponics y The Volcanics"
+								src="../IMG/the-dustaphonics-y-the-volcanics.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/banda-musica-barakaldo.jpg">
+							<img class="conciertoImagen" alt="Foto Banda Musical de Barakaldo"
+								src="../IMG/banda-musica-barakaldo.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/god-save-the-queen.jpg">
+							<img class="conciertoImagen" alt="Foto God Save The Queen"
+								src="../IMG/god-save-the-queen.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/aitana.jpg">
+							<img class="conciertoImagen" alt="Foto Aitana" src="../IMG/aitana.jpg">
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="../IMG/dawes.jpg">
+							<img class="conciertoImagen" alt="Foto Dawes" src="../IMG/dawes.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!--Pie de pagina-->
+		<footer>
+			<table>
+				<tr>
+					<th>Cont&aacute;ctanos</th>
+				</tr>
+				<tr>
+					<th>Nerea</th>
+					<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+					<td>UNO</td>
+				</tr>
+				<tr>
+					<th>Imanol</th>
+					<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+					<td>DOS</td>
+				</tr>
+				<tr>
+					<th>Cristina</th>
+					<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+					<td>TRES</td>
+				</tr>
+				<tr>
+					<th>Iker</th>
+					<td><a href="https://twitter.com/"><img src="../IMG/twitter.png" alt="Error"></a></td>
+					<td>CUATRO</td>
+				</tr>
+				<tr>
+					<td>
+
+					</td>
+				</tr>
+			</table>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo qui deserunt similique harum, autem
+				laboriosam
+				vitae enim ab mollitia dignissimos asperiores, pariatur consequatur? Ducimus ipsa eos quo? Porro, ipsum
+				dicta!
+				Ipsum quos ab, commodi animi voluptate numquam fugit facere quia modi earum magnam quo incidunt esse
+				magni
+				blanditiis labore, aspernatur laudantium porro ex praesentium sed quibusdam nisi corrupti! Sint,
+				facilis!
+				Odit, numquam deserunt. Libero similique labore provident velit cupiditate ratione vero harum
+				temporibus, omnis
+				animi expedita voluptatum exercitationem molestias saepe itaque possimus perspiciatis quod veritatis?
+				Suscipit,
+				repellat! Blanditiis, quidem eveniet!
+				Officia amet nobis rem quam ad voluptates ea ratione eius quaerat mollitia delectus, nisi dolore. Natus
+				optio
+				explicabo dolore blanditiis debitis minima, pariatur magni voluptatibus cum dolor aut vel accusantium..
+			</p>
+		</footer>
+	</div>
+
+	<!--Boton de la esquina inferior derecha para volver a la parte arriba de la pagina-->
+	<div class="botonArriba">
+		<a href="#arriba"><img src="../IMG/irarriba.png" alt="Volver arriba"></a>
+	</div>
+</body>
+
+</html>

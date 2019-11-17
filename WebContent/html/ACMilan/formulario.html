@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hazte socio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	</head>
+	<body>
+	
+		
+		<header>
+		<nav>
+			<ul>
+				<li><a  href="../Index.html">Home</a></li>
+				<li class="dropdown">
+				<a href="plantilla.html">Plantilla</a>
+						<div class="dropdown-content">
+							<a href="masculino.html"> Masculino</a>
+							<a href="https://www.acmilan.com/en/team/women-first-team"> Femenino</a>
+						</div>
+				</li>
+				<li><a class="active" href="html/formulario.html">Registro</a></li>
+				<li style="float:right"><a href="">Volver</a></li>
+			</ul>
+		</nav>
+		</header>
+		<div id="contenedorform">
+		<div id="principal">
+		<h1>HAZTE SOCIO</h1>
+		<p>Para hacerte socio rellena estos datos:</p>
+		<div id="contenido">
+		<div id="formulario">
+		<form  method="post">
+					<label for="Nombre">Nombre:</label>
+			<br>
+					<input type="text" id="Nombre" name="Nombre"/>
+			<br/>
+			<br />
+					<label for="Apellidos">Apellidos:</label>
+			<br>
+					<input type="text" id="Apellidos"  name="Apellidos"/><br/>
+			<br/>
+					<label for="fecha">Fecha nacimiento:</label> 
+					<input type="date" id="fecha" min="1900-01-01" max="2500-12-31">  
+			<br/> 
+			<br/>
+					<label for="telefono"> Teléfono:</label>
+					<input type="tel" id="telefono" maxlength="9" size="9"> 
+			<br />
+			<br />
+					<label for="Sexo">Sexo:</label>
+			<br/>
+					<input type="radio" id="Sexo1" checked value="Hombre" name="Sexo"/>Hombre
+			<br/> 
+					<input type="radio" id="Sexo2" value="Mujer" name="Sexo"/>Mujer
+			<br/>
+			<br/>
+					<label for="Dia">Zona del campo</label>
+			</br>
+					<select type="multiple" id="Zona" name="Zona">
+						<option id="Zona1" value="Norte">Norte (500€)</option>
+						<option id="Zona2" value="Sur">Sur (550€)</option>
+						<option id="Zona3" value="Este">Este (400€)</option>
+						<option id="Zona4" value="Oeste">Oeste (420€)</option>
+					</select>
+			</br>
+					<label for="Rossonero">¿Por que quieres ser Rossonero?</label>
+				<br />
+					<textarea id="Rossonero" name="¿Por que quieres ser Rossonero?" rows="5" cols="35"></textarea>
+				<br/>
+				<br/>
+					<label for="CV">Adjunta tu DNI:</label> 
+				<br/>
+					<input type="file" id="DNI" accept=".jpg,.png" />
+				<br/>
+				<br/>
+					<input type="submit" value="Enviar"/>
+					<input type="reset" value="Limpiar"/>
+				
+		</form>
+		<br/>
+		<br/>
+		
+		</div>
+		
+		</div>
+		<h2>Zonas disponibles en el campo:</h2>
+		<div id="foto2">
+		<img class="campo" src="../img/campo.png" usemap="#tickets">
+			<map name="tickets">
+				<area shape="rect" coords="362,372,465,710" alt="campo" href="https://singletickets.acmilan.com/en/">
+				<area shape="rect" coords="483,368,1045,722" alt="campo" href="https://www.acmilan.com/en/club/sites/san-siro">
+
+			</map>
+		</div>
+		</div>
+		</div>
+			<footer>
+				Associazione Calcio Milan, Piazzale Angelo Moratti, 20151, Milán, Italia
+				<table align="right">
+				<tr>
+					<td id="twitter"> <a href="https://twitter.com/acmilan"><img src="../img/twit.png"> </a> </td>
+					<td id="insta"><a href="https://www.instagram.com/acmilan/"><img src="../img/inst.png">  </a></td>
+					<td id="you"><a href="https://www.youtube.com/user/milanchannel/featured"><img src="../img/you.png"> </a> </td>
+				</tr>
+				</table>
+			</footer>
+		
+	</body>
+</html>

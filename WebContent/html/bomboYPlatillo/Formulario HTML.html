@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="./IMG/header.png">
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/Formulario CSS.css">
+	<!-- Fuente para el header -->
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<!-- Fuente para el body -->
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<title>Bombo&Platillo</title>
+</head>
+
+
+<body>
+	<div class="general" id="arriba">
+		<h1> Regístrate </h1>
+
+		<!--PRIMERA CAJA-->
+		<form>
+			<fieldset>
+				<legend> Datos personales </legend>
+				<div class="cajas">
+					<table>
+
+
+						<!--INPUT-->
+						<tr>
+							<td> <label for="nombre"> Nombre: </label> </td>
+							<td> <input class="normal" type="text" name="nombre" placeholder="Nombre" maxlength="40"
+									required /> </td>
+						</tr>
+
+						<tr>
+							<td> <label for="apellido"> Apellido: </label> </td>
+							<td> <input class="normal" type="text" name="apellido" placeholder="Apellido" maxlength="40"
+									required /> </td>
+						</tr>
+
+						<tr>
+							<td> <label for="fecha de nacimiento"> Fecha de nacimiento: </label> </td>
+							<td> <input class="normal" type="date" name="fecha de nacimiento" min="1900-1-1"
+									max="2100-12-31" required /> </td>
+						</tr>
+
+						<!--BOTONES-->
+						<tr>
+							<td> Género: </td>
+							<td>
+								<div class="radio">
+									<input type="radio" id="rad1" name="rads">
+									<label for="rad1"> Hombre </label>
+									<input type="radio" id="rad2" name="rads">
+									<label for="rad2"> Mujer </label>
+									<input type="radio" id="rad3" name="rads">
+									<label for="rad3"> Otros </label>
+								</div>
+							</td>
+						</tr>
+
+						<!--INPUT-->
+						<tr>
+							<td> <label for="telefono"> Teléfono: </label> </td>
+							<td> <input class="normal" type="tel" name="telefono" maxlength="9" /> </td>
+						</tr>
+
+						<!--DESPLEGABLE-->
+						<tr>
+							<td> Tu ubicación: </td>
+							<td>
+								<select>
+									<option value=""> </option>
+									<option value="andalucia"> Andalucía </option>
+									<option value="aragon"> Aragón </option>
+									<option value="asturias"> Asturias </option>
+									<option value="canarias"> Canarias </option>
+									<option value="cantabria"> Cantabria </option>
+									<option value="castilla la mancha"> Castilla La Mancha </option>
+									<option value="castilla y leon"> Castilla Y León </option>
+									<option value="cataluña"> Cataluña </option>
+									<option value="extremadura"> Extremadura </option>
+									<option value="galicia"> Galicia </option>
+									<option value="islas baleares"> Islas Baleares </option>
+									<option value="la rioja"> La Rioja </option>
+									<option value="madrid"> Madrid </option>
+									<option value="murcia"> Murcia </option>
+									<option value="navarra"> Navarra </option>
+									<option value="pais vasco"> País Vasco </option>
+									<option value="valencia"> Valencia </option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</fieldset>
+
+			<br />
+
+			<!--SEGUNDA CAJA-->
+			<fieldset>
+				<legend> Datos de usuario </legend>
+				<div class="cajas">
+					<table>
+						<!--INPUT-->
+						<tr>
+							<td> <label for="usuario"> Usuario: </label> </td>
+							<td> <input class="normal" maxlength="20" type="text" name="usuario" placeholder="Usuario"
+									required /> </td>
+						</tr>
+
+						<tr>
+							<td> <label for="email"> Email: </label> </td>
+							<td> <input class="normal" autocomplete="off" maxlength="40" type="email" name="email"
+									placeholder="Email" required /> </td>
+						</tr>
+
+						<tr>
+							<td> <label for="contraseña"> Contraseña: </label> </td>
+							<td> <input class="normal" maxlength="30" type="password" name="contraseña"
+									placeholder="Contraseña" required /> </td>
+						</tr>
+
+						<tr>
+							<td> <label for="contraseña"> Repita contraseña: </label> </td>
+							<td> <input class="normal" maxlength="30" type="password" name="contraseña"
+									placeholder="Contraseña" required /> </td>
+						</tr>
+					</table>
+				</div>
+			</fieldset>
+
+			<br />
+
+			<!--TERCERA CAJA-->
+			<fieldset>
+				<legend> Otros </legend>
+				<div class="cajas">
+					<table>
+
+						<!--CHECKBOX-->
+						<tr>
+							<td> Elige los géneros de música que más te gusten: </td>
+							<td> Añade una descripción a tu perfil: </td>
+						</tr>
+
+						<tr>
+							<td>
+								<label class="container">Blues
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Country
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Disco
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Electrónica
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Heavy Metal
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Hip Hop
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Indie
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Jazz
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Pop
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Punk
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Rap
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Rock
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label>
+								<label class="container">Soul
+									<input type="checkbox"> <span class="checkmark"></span>
+								</label></td>
+							<td>
+								<textarea cols="50" rows="10" maxlength="300" name="textolargo"
+									placeholder="  Escribe lo que quieras"></textarea>
+							</td>
+						<tr>
+					</table>
+				</div>
+			</fieldset>
+
+			<br />
+
+			<!--BOTONES-->
+			<a href="Formulario HTML.html"><button class="boton" type="button">Limpiar datos</button></a>
+			<a href="Bienvenida.html"><button class="boton" type="button"> Registrarse</button></a>
+			<a href="../index.html"><button class="boton" type="button">Volver al HOME</button></a>
+			<!-- La opcion que pedistes para volver a una pagina principal -->
+			<a href=""><button class="principal" type="button"> Volver a la página principal</button></a>
+			<!--Botón para volver a la página principal-->
+		</form>
+	</div>
+
+	<!--Boton de la esquina inferior derecha para volver a la parte arriba de la pagina-->
+	<div class="botonArriba">
+		<a href="#arriba"><img src="../IMG/irarriba.png" alt="Volver arriba"></a>
+	</div>
+</body>
+
+</html>
