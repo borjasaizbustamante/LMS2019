@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}	
+h1{
+	font-family:"Georgia", cursive, sans-serif;
+	text-align: center;
+	font-size:36pt;
+	color: white;
+	margin-top: 6%;
+	
+}
+h3{
+	color:white;
+	
+	
+	
+	
+}
+hr{
+	width: 99%;
+	height: 1em;
+	background-color:#ebd6b9;
+	border:2px solid ;
+	border-radius: 5px 5px 5px 5px;
+}
+#subtipo{
+	
+	margin-left:10px;
+}
+#subtipo2{
+	
+	margin-left:100px;
+}
+#flecha{
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+#flecha1{
+	height: 100px;
+	width: 100px;
+	transform:rotate(180deg);
+	float: left;
+}
+label{
+	
+	color: white;
+	
+}
+legend{
+	
+	color: white;
+	font-weight: bold;
+	
+	
+}
+select {
+  width: 35%;
+  height: 7%;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+
+}
+form{
+	margin-bottom:5%;
+}
+input[type=text] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(15, 211, 25);
+  border-radius: 4px;
+}
+input[type=password] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(15, 211, 25);
+  border-radius: 4px;
+}
+input[type=number] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(15, 211, 25);
+  border-radius: 4px;
+}
+#izq{
+	float:right;
+}
+h8{
+	text-align: center;
+	font-family: "Trebuchet MS";
+	font-size: 175% ;
+	margin-left:40%;
+	
+	
+}
+#contentFormulario{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 1%;
+	height: 60%;
+
+}

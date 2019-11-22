@@ -1,0 +1,13 @@
+#imagenmapa{
+
+	height: 800px;
+	align-content: center;
+	display:block;
+	margin:auto;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+
+}
+#content{
+	background-color:gray;
+}

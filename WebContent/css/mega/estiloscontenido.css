@@ -1,0 +1,32 @@
+/* Estilos para el menu con dropdown */
+*{
+	margin:0;
+	padding:0;
+}
+#content{
+	background-color: white;
+	position: absolute;
+	top: 15%;
+	bottom: 5%;
+	height: 80%;
+	width: 100%;
+	overflow: scroll;
+	background-image: url("../img/Foto06.jpg");
+}	
+
+video{
+	position:fixed;
+	min-height:100%;
+	min-width:100%;
+}			
+#h7{
+	color: white;
+}
+
+
+
+table{
+
+	border: 1px solid black;
+	
+}

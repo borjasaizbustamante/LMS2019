@@ -1,0 +1,28 @@
+.foto_drone{
+
+	width: 500px;
+	height: auto;
+	
+}
+.tabla{
+		border: 5p;
+		border-style: solid;
+		border-color:black;
+		background-color: beige;
+		border-collapse: collapse;
+		margin-top: 5%;
+		
+		
+}
+.tablafoto{
+		border: 5p;
+		border-style: solid;
+		border-color:black;
+		background-color:white;
+}
+.letragrande{
+	font-size: x-large
+}
+.letrapequeña{
+	font-size: large;
+}

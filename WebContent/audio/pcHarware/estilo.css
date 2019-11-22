@@ -1,0 +1,130 @@
+.contenedor {
+	border: 3px solid black;
+	padding: 10px;
+	width: 800px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+.elemento {
+	color: white;
+	background-color: white;
+	text-align: center;
+	margin: 5px;
+	width: 256px;
+	height: 256px;
+}
+
+a {
+	margin: auto;
+}
+
+table {
+	margin: auto;
+	background-color: black;
+	color: red;
+	border-style: solid;
+	border-color: red;
+}
+
+table tr th {
+	background-color: red;
+	color : black;
+}
+
+header {
+	color: white;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 10rem;
+}
+
+body {
+	background-image: url(../img/fondo1.jpg); 
+	background-repeat: no-repeat;
+	background-size: 2000px;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+#princ{
+	border: solid red;
+	padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 0, 0);
+}
+
+li {
+	display: inline;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover {
+	background-color: rgb(100, 65, 228);
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: LightGrey;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.specList h2 {
+	background-color: red;
+	width: 30%;
+}
+
+.specList ol {
+	list-style-type: upper-roman;
+	border: 2px;
+	border-radius: 12px;
+	background-color: rgb(169, 169, 169);
+	opacity: 0.7;
+	width: 30%;
+}
+
+.specList li {
+	display: list-item;
+	color: black;
+	text-align: left;
+	padding: 10px;
+}

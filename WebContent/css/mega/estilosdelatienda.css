@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+}	
+#contentTienda{
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 60%;
+	margin-top:1%
+
+}
+table{
+	border: 1px solid black;
+
+}
+
+h1{
+	font-family:"Georgia", cursive, sans-serif;
+	text-align: center;
+	font-size:36pt;
+	color: white;
+	margin-top: 6%;
+	
+}
+h3{
+	color:white;
+	
+}
+.Compras{
+	text-align: center;
+	font-family: "Trebuchet MS";
+	font-size: 175% ;
+	
+	
+}
+
+hr{
+	width: 99%;
+	height: 1em;
+	background-color:#ebd6b9;
+	border:2px solid ;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+
+#Tienda {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+#Tienda td, #Tienda th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: white;
+  
+}
+
+#Tienda th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  
+}
+.tiendafoto{
+	width: 50%;
+	height: 50%;
+	transition: transform .5s;
+	margin-left:25%;
+	
+}
+.tiendafoto:hover {
+  transform: scale(2);
+  
+  }
+#Tienda td{
+	width: 100px;
+	height: 300px;
+	
+}

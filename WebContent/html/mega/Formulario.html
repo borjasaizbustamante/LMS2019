@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<title> DRONES</title>
+	<link rel="stylesheet" type="text/css" href="../css/estiloscontenido.css" />
+	<!-- Llamada a css general (estilos.css)-->
+	<link rel="stylesheet" type="text/css" href="../css/estilosmenu.css" /> <!-- Llamada a css menu (estilosmenu.css)-->
+	<link rel="stylesheet" type="text/css" href="../css/estilosfooter.css" />
+	<!-- Llamada a css especifico (estilosprincipal.css)-->
+	<link rel="stylesheet" type="text/css" href="../css/estilosFormulario.css" />
+	<!-- Llamada a css especifico (estilosprincipal.css)-->
+
+
+	<!-- Para que aparezca el logo en la pestaña -->
+	<link rel="shortcut icon" href="../img/logo1.ico"/>
+</head>
+
+<body>
+	<div id="content">
+		<!--Contenido completo-->
+		<div id="contentFormulario">
+			<h1>FORMULARIO:</h1>
+			<hr>
+			<form>
+				<fieldset>
+
+					<legend>Especificaciones Tecnicas:</legend><br>
+					<label>Tamaño del motor:</label><br>
+					<select id="tamaño" name="tamaño">
+						<option selected value="4s">4S</option>
+						<option value="5s">5S</option>
+						<option value="6s">6S</option>
+					</select>
+					<br><br>
+
+					<label>KV:</label><br>
+					<select id="kv" name="kv">
+						<option value="2207">2207</option>
+						<option value="2208">2208</option>
+					</select>
+					<br><br>
+
+					<legend>FC(Placa controladora):</legend><br>
+					<label>Velocidad:</label><br>
+					<select id="fc" name="fc">
+						<option value="4khz">4kHz</option>
+						<option value="5khz">5kHz</option>
+						<option value="6khz">6kHz</option>
+					</select>
+					<br><br>
+					<label>Puertos (1-6)</label><br>
+							<input type="number" min="1" max="6">
+							<br><br>
+							<label>ESC(Corriente max):</label><br>
+							<select id="ESC" name="ESC">
+								<option value="4khz">30a</option>
+								<option value="5khz">40a</option>
+								<option value="6khz">50a</option>
+							</select>
+							<br><br>
+							<label>Camara (GoPro)</label><br>
+							<select id="Cam" name="Cam">
+								<option value="4khz">Sin Camara</option>
+								<option value="4khz">12 megapixeles</option>
+								<option value="5khz">25 megapixeles</option>
+								<option value="6khz">30 megapixeles</option>
+							</select>
+							<br><br>
+							<a href="../html/formulariofinal.html"><img id="flecha" alt="flecha" src="../img/flecha.png" /></a>
+				</fieldset>
+			</form>
+
+		</div>
+	</div>
+	<header>
+	<!--Menu completo-->
+
+	<a href="Video.html" id="home"><img id="logo" alt="logo" src="../img/logo.png" /></a>
+	<!--Logotipo-->
+	<div id="borde">
+		<!--Borde del menu-->
+		<nav id="menu">
+			<!--Menu-->
+			<ul id="menupadding">
+				<li><a href="Video.html">Home</a></li>
+				<li><a href="">Tienda</a></li>
+				<li><a href="Tipos_de_drones.html">Tipos de drones</a></li>
+				<li class="dropdown">
+					<a href="">Otros</a>
+					<div class="dropdown-content">
+						<a href="galeria.html">Galeria</a>
+						<a href="mapaimagen.html">Mapa</a>
+					</div>
+				</li>
+				<li>
+					<input type="text" id="buscador" placeholder="Buscar" />
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+</header>
+		<footer>
+		<!--Footer-->
+
+		<div class="h7"> 2000-2019, MEGA.com, Inc. o afiliados. Todos los derechos reservados.<br></div>
+		<!--Texto footer-->
+		<a href="https://instagram.com/tini_fpv"><img alt="InstagramLogo" height="25" width="25"
+				src="../img/instalogo.png" /></a>
+		<a href=" https://www.facebook.com/groups/1029396580408870/ "><img alt="FacebookLogo" height="25" width="25"
+				src="../img/facebooklogo.png" /></a>
+		<!--Logo Facebook-->
+		<a href=""><img alt="TwitterLogo" height="25" width="25" src="../img/twitterlogo.png" /></a>
+		<!--Logo Twitter-->
+		<a href="https://www.youtube.com/channel/UCEVp34jtRrSV8ewE4y4H9tg"><img alt="YoutubeLogo"
+				src="../img/youtubelogo.png" height="25" width="25" /></a>
+		<!--Logo Youtube-->
+	</footer>
+	<!--Fin footer-->
+</body>
+
+</html>
