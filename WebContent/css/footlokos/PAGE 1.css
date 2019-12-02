@@ -1,23 +1,23 @@
-.balon{
-		width: 140px; 
-		height: 140px;
-		}
-		
-		.p1{
-		font-family: impact;
-		color: #000000;
-		font-size: 160px;
-		text-align:center;
-		border: 10px solid #4dff00;
-		border-radius: 50px;
-		}
-		
-		.o{
-		color: #00e511
-		}
-		
-		table,th,td{
-border:px solid green;
+.balon {
+	width: 140px;
+	height: 140px;
+}
+
+.p1 {
+	font-family: impact;
+	color: #000000;
+	font-size: 160px;
+	text-align: center;
+	border: 10px solid #4dff00;
+	border-radius: 50px;
+}
+
+.o {
+	color: #00e511
+}
+
+table, th, td {
+	border: px solid green;
 }
 
 table {
@@ -25,83 +25,81 @@ table {
 	height: 68px;
 }
 
-.titulo{
-font-size:80px;
-color:#EA1C00;
-text-align:center;
+.titulo {
+	font-size: 80px;
+	color: #EA1C00;
+	text-align: center;
 }
 
-.p2{
-font-size: 30px;
+.p2 {
+	font-size: 30px;
 }
 
-.vuelta{
-text-decoration:none;
-padding:5px;
-background-color:#000000;
-color:#ffffff;
-border-radius: 10px; 
+.vuelta {
+	text-decoration: none;
+	padding: 5px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 10px;
 }
 
-.float{
-text-decoration:none;
-position:fixed;
-top:30px;
-left:88%;
-padding:5px;
-background-color:#3FBD00;
-color:#ffffff;
-z-index:1;
-font-size: 25px;
-border-radius: 20px; 
-min-width: 180px;
+.float {
+	text-decoration: none;
+	position: fixed;
+	top: 30px;
+	left: 88%;
+	padding: 5px;
+	background-color: #3FBD00;
+	color: #ffffff;
+	z-index: 1;
+	font-size: 25px;
+	border-radius: 20px;
+	min-width: 180px;
 }
 
-.laliga{
-width: 98px;
-height: 68px;
+.laliga {
+	width: 98px;
+	height: 68px;
 }
 
-.top{
-border-left: 10px solid #0068FF;
+.top {
+	border-left: 10px solid #0068FF;
 }
 
-.desc{
-border-left: 10px solid #FF0000;
+.desc {
+	border-left: 10px solid #FF0000;
 }
 
-.uno{
-border-left: 10px solid #00DF47;
+.uno {
+	border-left: 10px solid #00DF47;
 }
 
-.el{
-border-left: 10px solid #DFDF00;
+.el {
+	border-left: 10px solid #DFDF00;
 }
 
-.norm{
-border-left: 10px solid #D6D6D5;
+.norm {
+	border-left: 10px solid #D6D6D5;
 }
 
+.contenedor {
+	height: auto !important;
+	margin: 0 auto;
+}
 
-		
-		.contenedor {
-		height: auto !important;
-		margin: 0 auto;	
-		}
+.footer {
+	height: 60px;
+}
 
-		.footer{
-		height: 60px;
-		}
+.redes {
+	height: 40px;
+	width: 40px;
+}
 
-		.redes{
-		height:40px;
-		width: 40px;
-		}
-		
-		.pfooter{
-		text-align:center;
-		}
-		
-		footer{
-		margin-top: 80px;
-		}
+.pfooter {
+	text-align: center;
+}
+
+footer {
+	margin-top: 80px;
+}

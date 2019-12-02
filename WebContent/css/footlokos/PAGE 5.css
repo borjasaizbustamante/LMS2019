@@ -1,106 +1,102 @@
-header{
-				margin-top: -80px;
-				}
-	
-		.balon{
-		width: 140px; 
-		height: 140px;
-		}
-		
-		.p1{
-		font-family: impact;
-		color: #000000;
-		font-size: 160px;
-		text-align:center;
-		border: 10px solid #4dff00;
-		border-radius: 50px;
-		}
-		
-		.o{
-		color: #00e511
-		}
-		
-		
-				.margin{
-				margin-top:-50px;
-				}
-				
-	
-	.bundes {
-	position:absolute;
-	top:700px;
+header {
+	margin-top: -80px;
+}
+
+.balon {
+	width: 140px;
+	height: 140px;
+}
+
+.p1 {
+	font-family: impact;
+	color: #000000;
+	font-size: 160px;
+	text-align: center;
+	border: 10px solid #4dff00;
+	border-radius: 50px;
+}
+
+.o {
+	color: #00e511
+}
+
+.margin {
+	margin-top: -50px;
+}
+
+.bundes {
+	position: absolute;
+	top: 700px;
 	left: 1000px;
-
 }
 
-	.italia {
-	position:absolute;
-	top:900px;
+.italia {
+	position: absolute;
+	top: 900px;
 	left: 1035px;
-
 }
 
-	.laliga {
-	position:absolute;
-	top:900px;
+.laliga {
+	position: absolute;
+	top: 900px;
 	left: 620px;
-}	
+}
 
-	.ligue1 {
-	position:absolute;
-	top:780px;
+.ligue1 {
+	position: absolute;
+	top: 780px;
 	left: 820px;
-}	
+}
 
-	.premier {
-	position:absolute;
-	top:600px;
+.premier {
+	position: absolute;
+	top: 600px;
 	left: 800px;
 }
 
-	.nos {
-	position:absolute;
-	top:920px;
+.nos {
+	position: absolute;
+	top: 920px;
 	left: 530px;
 }
 
-	.mapa {
-	display:flex;
-	margin:auto;
+.mapa {
+	display: flex;
+	margin: auto;
 }
 
-		.float{
-text-decoration:none;
-position:fixed;
-top:30px;
-left:88%;
-padding:5px;
-background-color:#3FBD00;
-color:#ffffff;
-z-index:1;
-font-size: 25px;
-border-radius: 20px; 
-min-width: 180px;
+.float {
+	text-decoration: none;
+	position: fixed;
+	top: 30px;
+	left: 88%;
+	padding: 5px;
+	background-color: #3FBD00;
+	color: #ffffff;
+	z-index: 1;
+	font-size: 25px;
+	border-radius: 20px;
+	min-width: 180px;
 }
 
 .contenedor {
-		height: auto !important;
-		margin: 0 auto;	
-		}
+	height: auto !important;
+	margin: 0 auto;
+}
 
-		.footer{
-		height: 60px;
-		}
+.footer {
+	height: 60px;
+}
 
-		.redes{
-		height:40px;
-		width: 40px;
-		}
-		
-		.pfooter{
-		text-align:center;
-		}
-		
-		footer{
-		margin-top: 80px;
-		}
+.redes {
+	height: 40px;
+	width: 40px;
+}
+
+.pfooter {
+	text-align: center;
+}
+
+footer {
+	margin-top: 80px;
+}
