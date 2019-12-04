@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 
 <html lang=es>
-	<head>
-		<meta charset="UTF-8">
-		<title>Beefilm</title>
-		<link rel="stylesheet" type="text/css" href="../css/css.css">
-		<link rel="icon" href="../img/logo.png" type="image/gif" sizes="16x16">
-	</head>
-	
-	<body>
-	<header><!--Esto es el encabezado-->
+<head>
+<meta charset="UTF-8">
+<title>Beefilm</title>
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="icon" href="../img/logo.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+	<header>
+		<!--Esto es el encabezado-->
 		<nav class="menusup">
 			<ul class="nav">
 				<li><a href="../index.html">Inicio</a></li>
@@ -20,8 +21,7 @@
 						<li><a href="peliciencia.html">Ciencia ficción</a></li>
 						<li><a href="pelianimacion.html">Animación</a></li>
 						<li><a href="peliaccion.html">Acción</a></li>
-					</ul>
-				</li>
+					</ul></li>
 				<li><a href="series.html">Series</a>
 					<ul>
 						<li><a href="seriedrama.html">Drama/Suspense</a></li>
@@ -29,92 +29,90 @@
 						<li><a href="serieciencia.html">Ciencia ficción</a></li>
 						<li><a href="serieanimacion.html">Animación</a></li>
 						<li><a href="serieaccion.html">Acción</a></li>
-					</ul>
-				</li>
+					</ul></li>
 				<li><a href="premios.html">Premios</a></li>
 				<li><a href="suscripcion.html">Suscripción</a></li>
 			</ul>
-				<a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo" align="right"/></a>
+			<a href="../index.html"><img class="logo" src="../img/logo.png"
+				alt="logo" align="right" /></a>
 		</nav>
 	</header>
-	<article><!--Esto es el contenido-->
+	<article>
+		<!--Esto es el contenido-->
 		<div id="contenido">
 			<div id="titulo">
 				<h1></h1>
 			</div>
 			<form>
-	 <fieldset>
-		<legend>Datos usuarios</legend>
-	<table><!--Esto es una tabla para meter los campos donde rellenar-->
-		<tr>
-			<td>
-				<label for="email">Email</label><br/>
-				<input type="text" name="email" id="email" required="email"  placeholder="Introduce el email" maxlength="50"/><br/>
-			</td>
-			<td>
-				<label for="email">Repita el email:</label> <br/>
-				<input type="email" name="email" id="email" required="email"  autocomplete="off" placeholder="Repite el email" maxlength="50"/> <br/>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<label for="clave">Contraseña:</label> <br/>
-				<input type="password" name="clave" id="clave" required="clave" placeholder="Escribe la contraseña" maxlength="50"/> <br/>
-			</td>
-			<td>
-				<label for="clave">Repita la contraseña:</label> <br/>
-				<input type="password" name="clave" id="clave" required="clave" placeholder="Repite la contraseña" maxlength="50"/> <br/>
-			</td>
-		</tr>
-	</table>
-		<br/>
-		<hr/>
-		<br/>
-	<table>
-	<tr>
-	<td>
-			<label for="email">Nombre</label> <br/>
-			<input type="text" name="nombre" id="nombre" maxlength="40" placeholder="Escribe tu nombre"/><br/>
-	</td>	
-	<td>
-			<label for="date">Fecha de nacimiento</label> <br/>
-			<input type="date" id="date" min="1900-01-01" placeholder="dd/mm/aaaa" max="2500-12-31/>"><br/>
-	</td>		
-	</tr>
-	<td>
-			<label for="text">Sexo:</label> 
-			<input type="radio" name="genero" value="hombre" id="hombre">
-			<label for="hombre">Hombre</label> 
-			<input type="radio" name="genero" value="mujer" id="mujer">
-			<label for="mujer">Mujer</label>
-			<input type="radio" name="genero" value="No específica" id="No específica">
-			<label for="No específica">No específica</label> <br/>
-	</td>
-	<td>	
-			<label for="tel">Ciudad:</label>
-			<input type="text" name="text" id="text" placeholder="Escribe tu ciudad"/><br/> 
-	</td>
-	</table>
-	</fieldset> 
-	<br/>
-		<div id="botones"><!--Esto es un div para los botones-->
-			<input id="bottom1" type="submit" value="Enviar"/>
-			<input id="bottom2" type="reset" value="Limpiar"/>
-		</div>
-	</form>
-	<audio src="../audio/musicaascensor.mp3" autoplay="autoplay"  controls>
-		tu navegador no implementa <code>audio</code>
-	</audio>
-	</article>	
-	
-	<footer><!--Esto es el pie de pagina-->
-	<h2 class="pie">BEEFILM</h2>
-	<a href="https://www.youtube.com/?gl=ES&tab=r1" target="_blank"><img src="../img/logoYT.png" alt="logo"/></a>
-	<a href="https://twitter.com/?lang=es" target="_blank"><img src=" ../img/logoTW.png" alt="logo"/></a>
-	<a href="https://www.instagram.com/?hl=es" target="_blank"><img src="../img/logoIG.png" alt="logo"/></a>
-	<a href="https://es-es.facebook.com/" target="_blank"><img src="../img/logoFB.png" alt="logo"/></a>
+				<fieldset>
+					<legend>Datos usuarios</legend>
+					<table>
+						<!--Esto es una tabla para meter los campos donde rellenar-->
+						<tr>
+							<td><label for="email">Email</label><br /> <input
+								type="text" name="email" id="email" required
+								placeholder="Introduce el email" maxlength="50" /><br /></td>
+							<td><label for="email">Repita el email:</label> <br /> <input
+								type="email" name="email" id="email" required autocomplete="off"
+								placeholder="Repite el email" maxlength="50" /> <br /></td>
+						</tr>
+						<tr>
+							<td><label for="clave">Contraseña:</label> <br /> <input
+								type="password" name="clave" id="clave" required
+								placeholder="Escribe la contraseña" maxlength="50" /> <br /></td>
+							<td><label for="clave">Repita la contraseña:</label> <br />
+								<input type="password" name="clave" id="clave" required
+								placeholder="Repite la contraseña" maxlength="50" /> <br /></td>
+						</tr>
+					</table>
+					<br />
+					<hr />
+					<br />
+					<table>
+						<tr>
+							<td><label for="email">Nombre</label> <br /> <input
+								type="text" name="nombre" id="nombre" maxlength="40"
+								placeholder="Escribe tu nombre" /><br /></td>
+							<td><label for="date">Fecha de nacimiento</label> <br /> <input
+								type="date" id="date" min="1900-01-01" placeholder="dd/mm/aaaa"
+								max="2500-12-31/>"><br /></td>
+						</tr>
+						<td><label for="text">Sexo:</label> <input type="radio"
+							name="genero" value="hombre" id="hombre"> <label
+							for="hombre">Hombre</label> <input type="radio" name="genero"
+							value="mujer" id="mujer"> <label for="mujer">Mujer</label>
+							<input type="radio" name="genero" value="No específica"
+							id="No específica"> <label for="No específica">No
+								específica</label> <br /></td>
+						<td><label for="tel">Ciudad:</label> <input type="text"
+							name="text" id="text" placeholder="Escribe tu ciudad" /><br /></td>
+					</table>
+				</fieldset>
+				<br />
+				<div id="botones">
+					<!--Esto es un div para los botones-->
+					<input id="bottom1" type="submit" value="Enviar" /> <input
+						id="bottom2" type="reset" value="Limpiar" />
+				</div>
+			</form>
+			<audio src="../audio/musicaascensor.mp3" autoplay="autoplay" controls>
+				tu navegador no implementa audio
+			</audio>
+	</article>
 
-	</footer>	
-	</body>
-	
+	<footer>
+		<!--Esto es el pie de pagina-->
+		<h2 class="pie">BEEFILM</h2>
+		<a href="https://www.youtube.com/?gl=ES&tab=r1" target="_blank"><img
+			src="../img/logoYT.png" alt="logo" /></a> <a
+			href="https://twitter.com/?lang=es" target="_blank"><img
+			src=" ../img/logoTW.png" alt="logo" /></a> <a
+			href="https://www.instagram.com/?hl=es" target="_blank"><img
+			src="../img/logoIG.png" alt="logo" /></a> <a
+			href="https://es-es.facebook.com/" target="_blank"><img
+			src="../img/logoFB.png" alt="logo" /></a>
+
+	</footer>
+</body>
+
 </html>
