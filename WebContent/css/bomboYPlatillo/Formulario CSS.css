@@ -132,7 +132,7 @@ select option {
 }
 
 
-/*GÃ‰NEROS MÃšSICA*/
+/*GÃ‰NEROS MÚSICA*/
 .container {
 	display: block;
 	position: relative;
@@ -162,7 +162,7 @@ select option {
 }
 
 .container:hover input~.checkmark {
-	/*Cambia el color cuando el ratÃ³n pasa por encima*/
+	/*Cambia el color cuando el ratón pasa por encima*/
 	background-color: #ccc;
 }
 
@@ -179,7 +179,7 @@ select option {
 }
 
 .container input:checked~.checkmark:after {
-	/*EnseÃ±a el checkmark*/
+	/*Enseña el checkmark*/
 	display: block;
 }
 

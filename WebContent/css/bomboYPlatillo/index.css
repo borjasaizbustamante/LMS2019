@@ -1,4 +1,4 @@
-/* TamaÃ±o de todas las imagenes */
+/* Tamaño de todas las imagenes */
 img {
     height: 100px;
     width: 200px;
@@ -41,7 +41,7 @@ h3 {
 }
 
 /* DIV de la galeria con un flexbox para que tenga dos columnas de imagenes y si
-   se hace mas pequeÃ±o el navegador que se ponga a uno */
+   se hace mas pequeño el navegador que se ponga a uno */
 .galeria {
     padding: 0.2%;
     border: solid 3px #402F24;

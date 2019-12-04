@@ -16,7 +16,7 @@ article tr {
 	font-size: 100%
 }
 
-/*Formato del contenido de la pÃ¡gina de listas, es decir: listado, introducciÃ³n, mapa y funciÃ³nmapa*/
+/*Formato del contenido de la página de listas, es decir: listado, introducción, mapa y funciónmapa*/
 
 article {
 	border-radius: 20px;
@@ -82,7 +82,7 @@ iframe {
 	color: #B03A2E;
 }
 
-/*formato de imagenes que se encuentran dentro de tabla e introducciÃ³n*/
+/*formato de imagenes que se encuentran dentro de tabla e introducción*/
 .tablalista img {
 	width: 100%;
 	height: 100%;
@@ -94,7 +94,7 @@ iframe {
 	margin-top: 5%;
 }
 
-/*flexbox de las 3 columnas de la pÃ¡gina*/
+/*flexbox de las 3 columnas de la página*/
 
 .flex-entradapagina {
 	display: flex;
