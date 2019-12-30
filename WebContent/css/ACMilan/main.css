@@ -132,7 +132,7 @@ a {
 #contenedor {
 	outline: 1px solid grey;
 	margin: auto;
-	background-image: url("../img/rel02.jpg");
+	background-image: url("../../img/ACMilan/rel02.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -174,192 +174,192 @@ td {
 /* ----------------  FORMULARIO-------------------- */
 #formulario {
 	border: solid;
-	background-image: url("../img/rel0.jpg");
+	background-image: url("../../img/ACMilan/rel0.jpg");
 	background-position: center;
 	padding: 45px;
 	padding-left: 100px;
 }
 /* ----------------------- FOTO DE CADA JUGADOR Y SU HOVER CORRESPONDIENTE ------------------------- */
 #reina {
-	background-image: url("../img/reina.png");
+	background-image: url("../../img/ACMilan/reina.png");
 }
 
 #reina:hover {
-	background-image: url("../img/reina2.png");
+	background-image: url("../../img/ACMilan/reina2.png");
 }
 
 #g_donnarumma {
-	background-image: url("../img/donnarumma.png");
+	background-image: url("../../img/ACMilan/donnarumma.png");
 }
 
 #g_donnarumma:hover {
-	background-image: url("../img/donnarumma2.png");
+	background-image: url("../../img/ACMilan/donnarumma2.png");
 }
 
 #a_donnarumma {
-	background-image: url("../img/a.donnarumma.png");
+	background-image: url("../../img/ACMilan/a.donnarumma.png");
 }
 
 #a_donnarumma:hover {
-	background-image: url("../img/a.donnarumma2.png");
+	background-image: url("../../img/ACMilan/a.donnarumma2.png");
 }
 
 #romagnoli {
-	background-image: url("../img/romagnoli.png");
+	background-image: url("../../img/ACMilan/romagnoli.png");
 }
 
 #romagnoli:hover {
-	background-image: url("../img/romagnoli2.png");
+	background-image: url("../../img/ACMilan/romagnoli2.png");
 }
 
 #ricardo {
-	background-image: url("../img/ricardo.png");
+	background-image: url("../../img/ACMilan/ricardo.png");
 }
 
 #ricardo:hover {
-	background-image: url("../img/ricardo2.png");
+	background-image: url("../../img/ACMilan/ricardo2.png");
 }
 
 #krunic {
-	background-image: url("../img/krunic.png");
+	background-image: url("../../img/ACMilan/krunic.png");
 }
 
 #krunic:hover {
-	background-image: url("../img/krunic2.png");
+	background-image: url("../../img/ACMilan/krunic2.png");
 }
 
 #hakan {
-	background-image: url("../img/hakan.png");
+	background-image: url("../../img/ACMilan/hakan.png");
 }
 
 #hakan:hover {
-	background-image: url("../img/hakan2.png");
+	background-image: url("../../img/ACMilan/hakan2.png");
 }
 
 #musacchio {
-	background-image: url("../img/musacchio.png");
+	background-image: url("../../img/ACMilan/musacchio.png");
 }
 
 #musacchio:hover {
-	background-image: url("../img/musacchio2.png");
+	background-image: url("../../img/ACMilan/musacchio2.png");
 }
 
 #theo {
-	background-image: url("../img/theo.png");
+	background-image: url("../../img/ACMilan/theo.png");
 }
 
 #theo:hover {
-	background-image: url("../img/theo2.png");
+	background-image: url("../../img/ACMilan/theo2.png");
 }
 
 #biglia {
-	background-image: url("../img/biglia.png");
+	background-image: url("../../img/ACMilan/biglia.png");
 }
 
 #biglia:hover {
-	background-image: url("../img/biglia2.png");
+	background-image: url("../../img/ACMilan/biglia2.png");
 }
 
 #borini {
-	background-image: url("../img/borini.png");
+	background-image: url("../../img/ACMilan/borini.png");
 }
 
 #borini:hover {
-	background-image: url("../img/borini2.png");
+	background-image: url("../../img/ACMilan/borini2.png");
 }
 
 #caldara {
-	background-image: url("../img/caldara.png");
+	background-image: url("../../img/ACMilan/caldara.png");
 }
 
 #caldara:hover {
-	background-image: url("../img/caldara2.png");
+	background-image: url("../../img/ACMilan/caldara2.png");
 }
 
 #conti {
-	background-image: url("../img/conti.png");
+	background-image: url("../../img/ACMilan/conti.png");
 }
 
 #conti:hover {
-	background-image: url("../img/conti2.png");
+	background-image: url("../../img/ACMilan/conti2.png");
 }
 
 #kessie {
-	background-image: url("../img/kessie.png");
+	background-image: url("../../img/ACMilan/kessie.png");
 }
 
 #kessie:hover {
-	background-image: url("../img/kessie2.png");
+	background-image: url("../../img/ACMilan/kessie2.png");
 }
 
 #suso {
-	background-image: url("../img/suso.png");
+	background-image: url("../../img/ACMilan/suso.png");
 }
 
 #suso:hover {
-	background-image: url("../img/suso2.png");
+	background-image: url("../../img/ACMilan/suso2.png");
 }
 
 #duarte {
-	background-image: url("../img/duarte.png");
+	background-image: url("../../img/ACMilan/duarte.png");
 }
 
 #duarte:hover {
-	background-image: url("../img/duarte2.png");
+	background-image: url("../../img/ACMilan/duarte2.png");
 }
 
 #calabria {
-	background-image: url("../img/calabria.png");
+	background-image: url("../../img/ACMilan/calabria.png");
 }
 
 #calabria:hover {
-	background-image: url("../img/calabria2.png");
+	background-image: url("../../img/ACMilan/calabria2.png");
 }
 
 #bonaventura {
-	background-image: url("../img/bonaventura.png");
+	background-image: url("../../img/ACMilan/bonaventura.png");
 }
 
 #bonaventura:hover {
-	background-image: url("../img/bonaventura2.png");
+	background-image: url("../../img/ACMilan/bonaventura2.png");
 }
 
 #castillejo {
-	background-image: url("../img/castillejo.png");
+	background-image: url("../../img/ACMilan/castillejo.png");
 }
 
 #castillejo:hover {
-	background-image: url("../img/castillejo2.png");
+	background-image: url("../../img/ACMilan/castillejo2.png");
 }
 
 #bennacer {
-	background-image: url("../img/bennacer.png");
+	background-image: url("../../img/ACMilan/bennacer.png");
 }
 
 #bennacer:hover {
-	background-image: url("../img/bennacer2.png");
+	background-image: url("../../img/ACMilan/bennacer2.png");
 }
 
 #piatek {
-	background-image: url("../img/piatek.png");
+	background-image: url("../../img/ACMilan/piatek.png");
 }
 
 #piatek:hover {
-	background-image: url("../img/piatek2.png");
+	background-image: url("../../img/ACMilan/piatek2.png");
 }
 
 #paqueta {
-	background-image: url("../img/paqueta.png");
+	background-image: url("../../img/ACMilan/paqueta.png");
 }
 
 #paqueta:hover {
-	background-image: url("../img/paqueta2.png");
+	background-image: url("../../img/ACMilan/paqueta2.png");
 }
 
 #rebic {
-	background-image: url("../img/rebic.png");
+	background-image: url("../../img/ACMilan/rebic.png");
 }
 
 #rebic:hover {
-	background-image: url("../img/rebic2.png");
+	background-image: url("../../img/ACMilan/rebic2.png");
 }

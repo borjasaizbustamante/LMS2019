@@ -129,7 +129,7 @@ a {
 	padding: 0;
 }										/*......................................................*/
 form {
-	background: url(../img/fondocine.jpg);					/* AQUI COMIENZA EL FORMULARIO*/
+	background: url(../../img/beefilm/fondocine.jpg);					/* AQUI COMIENZA EL FORMULARIO*/
 	margin-bottom: 30px;						
 	color: white;								/*......................................................*/
 }

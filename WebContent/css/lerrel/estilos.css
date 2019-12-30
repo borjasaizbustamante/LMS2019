@@ -51,7 +51,7 @@ button:hover {
 #header {
   background-position:  center;
   background-repeat: no-repeat;
-  background-image: url("../img/banner.png");
+  background-image: url("../../img/lerrel/banner.png");
   height: 120px;
 }
 header, nav {
@@ -63,7 +63,7 @@ li a:hover, .dropdown:hover {
 }
 section {
   height: 100px;
-  background-image:url("../img/banner.png");
+  background-image:url("../../img/lerrel/banner.png");
 }
 header {
   width: 100%;
@@ -109,7 +109,7 @@ ul, li{
 }
 /*Significados fondo*/
 #pagina1{
-	background-image:url("../img/fondos/sign.jpg");
+	background-image:url("../../img/lerrel/fondos/sign.jpg");
 	background-position: center;
 	height: auto;
 	width: 100%;
@@ -118,7 +118,7 @@ ul, li{
 	padding: 10px;
 }
 #paginaArabic{
-	background-image:url("../img/fondos/arabe.jpg");
+	background-image:url("../../img/lerrel/fondos/arabe.jpg");
 	height: auto;
 	width: 100%;
 	margin-left: auto;
@@ -138,7 +138,7 @@ ul, li{
 
 }
 #historia{
-	background-image:url("../img/fondos/historia.jpg");
+	background-image:url("../../img/lerrel/fondos/historia.jpg");
 	height: auto;
 	width: 100%;
 	margin-left: auto;
@@ -157,7 +157,7 @@ ul, li{
 	padding: 10px;
 }
 body{
-	background-image:url("../img/fondos/fondo1.jpg");
+	background-image:url("../../img/lerrel/fondos/fondo1.jpg");
 	opacity: 1;
 	filter: alpha(opacity=30);
 	background-position: center;
@@ -210,25 +210,25 @@ ul, ol {
 	background-color:#22273b;
 }
 #arabic{
-	background-image: url(../img/fondos/arabic.png);
+	background-image: url(../../img/lerrel/fondos/arabic.png);
 }
 #espanita{
-	background-image: url(../img/fondos/espanita.gif);
+	background-image: url(../../img/lerrel/fondos/espanita.gif);
 }
 #euskadi{
-	background-image: url(../img/fondos/euskadi.png);
+	background-image: url(../../img/lerrel/fondos/euskadi.png);
 }
 #terrenales{
-	background-image: url(../img/fondos/terrenales.png);
+	background-image: url(../../img/lerrel/fondos/terrenales.png);
 }
 #reaction{
-	background-image: url(../img/fondos/reaction.png);
+	background-image: url(../../img/lerrel/fondos/reaction.png);
 }
 #dank{
-	background-image: url(../img/fondos/dank.png);
+	background-image: url(../../img/lerrel/fondos/dank.png);
 }
 #cursed{
-	background-image: url(../img/fondos/cursed.png);
+	background-image: url(../../img/lerrel/fondos/cursed.png);
 }			
 .menu li ul {
 	display:none;
